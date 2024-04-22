@@ -1,4 +1,4 @@
-from tom import index
+from app import index
 
 def test_index():
 	assert index() == "hello, my world from flask app"
